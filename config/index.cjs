@@ -29,11 +29,11 @@ const USER_CONFIG = {
 
     /** 每日N句 */
     // 金山每日一句
-    CIBA: true,
+    CIBA: false,
     // 每日一言
     oneTalk: false,
     // 土味情话(彩虹屁)
-    earthyLoveWords: false,
+    earthyLoveWords: true,
     // 朋友圈文案
     momentCopyrighting: false,
     // 毒鸡汤
@@ -69,9 +69,9 @@ const USER_CONFIG = {
       // 你想对他发送的模板消息的模板ID
       useTemplateId: 'nXqNg5pDk4y7XawDJOsNxv5fA-383Qg8RXCi6jT08G0',
       // 所在省份
-      province: '广东',
+      province: '上海',
       // 所在城市
-      city: '肇庆',
+      city: '上海',
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '12-27',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
@@ -82,17 +82,17 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '老婆', year: '1996', date: '09-09',
+          type: '*生日', name: '老婆', year: '1998', date: '09-09',
         },
-        {
-          type: '节日', name: '结婚纪念日', year: '2020', date: '09-03',
-        },
+//         {
+//           type: '节日', name: '结婚纪念日', year: '2020', date: '09-03',
+//         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+//         {
+//           type: '生日', name: '李四', year: '1996', date: '09-31',
+//         },
         {
-          type: '生日', name: '李四', year: '1996', date: '09-31',
-        },
-        {
-          type: '节日', name: '被搭讪纪念日', year: '2021', date: '09-01',
+          type: '节日', name: '被搭讪纪念日', year: '2022', date: '09-01',
         }
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
