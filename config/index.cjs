@@ -67,7 +67,7 @@ const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'o4eVj6O2AsO3XEiFB4rM5Ap2gk3w',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: 'qzETPAriby3Uw_OxfuBbUCJK-d33syCDLuWTPvoNLMI',
+      useTemplateId: 'feDCGECURGA5kpeHHFx9Ro30qYgNl410XhZgWk01Ixo',
       // 所在省份
       province: '上海',
       // 所在城市
@@ -92,7 +92,7 @@ const USER_CONFIG = {
 //           type: '生日', name: '李四', year: '1996', date: '09-31',
 //         },
         {
-          type: '节日', name: '被搭讪纪念日', year: '2022', date: '09-01',
+          type: '节日', name: '在一起的日子', year: '2022', date: '11-01',
         }
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
